@@ -28,11 +28,11 @@ road = input(
 ).lower()
 if road == "left":
     river = input(
-        "You reach a river, but there isn't a boat to cross it. Do you swim or wait for a boat? The options are 'swim' or 'wait' "
+        "You reach a river, but there isn't a boat to cross it and there is a island in the middle of it. Do you swim or wait for a boat? The options are 'swim' or 'wait' "
     ).lower()
-    if river == "swim":
+    if river == "wait":
         door = input(
-            "There are 3 doors, a red, a yellow and a blue one. Which do you choose? The options are 'red', 'yellow' or 'blue' "
+            "You reach the island and there is a house with 3 doors, a red, a yellow and a blue one. Which do you choose? The options are 'red', 'yellow' or 'blue' "
         ).lower()
         if door == "red":
             print("Burned by fire. Game over!")
